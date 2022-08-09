@@ -16,7 +16,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+count = 0
+inp_num=0
+while inp_num != "стоп":
+    if int(inp_num) > 0:
+        count += 1
+    inp_num = input("Введите число: ")  # нужно ввести
+print("количество введенных чисел = " ,count)
 ```
 
 ---
