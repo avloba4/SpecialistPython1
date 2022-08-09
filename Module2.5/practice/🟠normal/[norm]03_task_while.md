@@ -20,7 +20,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+step_count = int(input("Введите количество уровней: "))  # нужно ввести
+
+count = 0
+sum = 0
+
+while count < step_count:
+    count += 1
+    sum += count ** 2
+
+print("Общая сумма: ", sum)
+
 ```
 
 ---
