@@ -19,6 +19,22 @@
 
 ```python
 # TODO: you code here...
+num = int(input("Введите число: "))
+
+first = num//1000
+second = (num - first*1000)//100
+third = (num - first*1000 - second*100)//10
+fourth = (num - first*1000 - second*100 - third*10)
+
+print(first)
+print(second)
+print(third)
+print(fourth)
+
+if first == fourth and  second == fourth:
+    print("Симметричное")
+else:
+    print("Не симметричное")
 ```
 
 ---
