@@ -22,7 +22,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+step_count = int(input("Введите количество ступенек: "))  # нужно ввести
+count = 1
+step=""
+while count <= step_count:
+    step += str(count)
+    print(step)
+    count += 1
 ```
 
 ---
