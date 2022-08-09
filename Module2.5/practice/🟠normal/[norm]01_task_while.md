@@ -33,7 +33,13 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+step_count = int(input("Введите количество ступенек: ")) # нужно ввести
+
+count = 0
+while count <= step_count:
+    print("*"*count)
+    count += 1
+
 ```
 
 ---
